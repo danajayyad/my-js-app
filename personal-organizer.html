@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Organizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+<a href="./index.html" class="position-absolute top-0 start-0 m-3 text-white " style="z-index: 11111;">
+        <i class="fas fa-home "></i>
+    </a>
+    <div class="container-fluid" style="min-height: 100vh;">
+
+        <div class="row h-100">
+
+            <div class="col-sm-3 bar col-lg-2 bg position-fixed start-0 vh-100 border-end">
+
+                <aside class=" p-3">
+                    <ul class="nav flex-column mt-5  ">
+                        <li class="nav-item mb-5"><button onclick="showSection('tasks', this)"
+                                class="text-white fw-bold btn rounded-pill px-3  py-4 aside-button  tasks-btn text-center w-100 ">Tasks</button>
+                        </li>
+                        <li class=" nav-item  mb-5"><button onclick="showSection('notes', this)"
+                                class="text-white fw-bold btn rounded-pill px-3  py-4 aside-button notes-btn text-center w-100">Notes</button>
+                        </li>
+                        <li class="nav-item mb-5"><button onclick="showSection('events', this)"
+                                class="text-white fw-bold btn rounded-pill px-3 py-4  aside-button events-btn  w-100">Events</button>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+
+
+
+
+            <div class="col-sm-9  col-lg-10  p-5 ">
+                <div class="tasks-section main-section ms-3" id="tasks">
+                    <div class="mb-2">
+                        <h2 class="fw-bold mb-2 dark-blue-text"><i class="fa-solid fa-list-check me-2"></i>Your Tasks
+                        </h2>
+                        <p class="text-muted">This is your personal space to add, track, and complete your daily tasks.
+                            Stay organized and focused!</p>
+                    </div>
+                    <form action="" class="task-form d-flex mb-5">
+                        <input type="text" id="task-input" style="height: 70px;" class="  form-control me-2 "
+                            placeholder="Enter new task" required>
+                        <button type="submit" class="btn bg text-white btn-sm rounded-pill"> <i
+                                class="fa-solid fa-plus"></i> </button>
+                    </form>
+                    <div class=" p-5 w-100">
+                        <ul id="tasks-list" class="list-group  border border-bg "></ul>
+                    </div>
+                </div>
+
+
+
+
+                <div class="notes-section main-section ms-3" id="notes">
+
+                    <form action="" id="notes-form" class="notes-form d-flex flex-column">
+                        <h2 class="fw-bold mb-2"><i class="fa-solid fa-note-sticky me-2 text-yellow mb-5"> Your
+                                Notes</i></h2>
+                        <div class="d-flex">
+                            <textarea type="text" id="note-input" style="height: 150px; "
+                                class="note-input form-control px-4 w-75   me-2 py-5 "
+                                placeholder="   write your note..." required></textarea>
+                            <button type="submit" class="btn yellow-bg text-white fs-2 fw-bold w-25">
+                                <li class="fa-solid fa-plus"></li>
+                            </button>
+                        </div>
+                    </form>
+
+
+
+
+                    <div id="notes-container" class="row">
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="events-section main-section " id="events">
+                    <h2 class="fw-bold mb-4 border-bottom text-muted"><i class="fa-solid fa-calendar-days me-2 text-success"></i>Your Events</h2>
+
+                    <p class="text-muted mb-4">Keep track of birthdays, meetings, and deadlines here.</p>
+
+                    <form id="event-form" class="d-flex mb-4">
+                        <input type="date" id="event-date" class="form-control me-2" required>
+                        <input type="text" id="event-title" class="form-control me-2" placeholder="Event title"
+                            required>
+                        <button type="submit" class="btn green-bg  text-white rounded-pill"><i class="fa-solid fa-plus"></i></button>
+                    </form>
+
+                    <ul id="event-list" class=" row "></ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./personal-organizer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
