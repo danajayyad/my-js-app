@@ -35,7 +35,7 @@ This project includes multiple JavaScript mini-apps, all accessible from a singl
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5  
 - CSS3  
