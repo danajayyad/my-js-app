@@ -1,22 +1,42 @@
-**My JS App**
-Live Demo: https://danajayyad.github.io/my-js-app/
-A collection of interactive JavaScript mini-applications built with HTML, CSS, and vanilla JavaScript — all hosted on GitHub Pages.
+# My JS App
 
-**Overview**
-This project bundles several small web applications designed to help learn and practice JavaScript concepts and DOM manipulation by building real functional tools.
-Included Apps
-The following interactive modules are available from the homepage:
-🔹 Expense Tracker Application — Track your expenses by category and stay on budget. 
-🔹 Personal Organizer — Organize your tasks and notes. 
-🔹 Shopping List — Create and manage your grocery list. 
-🔹 To-Do List — Add tasks, filter by status, and manage your todo items. 
-🔹 Priority To-Do List — Sort and manage tasks by priority level. 
-🔹 Categorized To-Do List — Add and categorize tasks. 
-🔹 Quiz — Test your knowledge with an interactive quiz. 
-🔹 Budget Planner — Set a budget and compare with categorized expenses. 
+🌐 **Live Demo:**  
+https://danajayyad.github.io/my-js-app/
 
-**Features**
-•	Pure Vanilla JavaScript — No frameworks
-•	Dynamic DOM manipulation
-•	Interactive UI for all mini-apps
+A collection of small interactive web applications built using **HTML, CSS, and Vanilla JavaScript**, designed to practice JavaScript fundamentals and DOM manipulation.
 
+---
+
+## 📌 Overview
+
+This project includes multiple JavaScript mini-apps, all accessible from a single homepage. Each app focuses on a specific functionality to demonstrate core JavaScript concepts.
+
+---
+
+## 🧩 Included Applications
+
+- **Expense Tracker** – Track expenses by category  
+- **Personal Organizer** – Manage personal tasks and notes  
+- **Shopping List** – Create and maintain shopping items  
+- **To-Do List** – Add, complete, and remove tasks  
+- **Priority To-Do List** – Organize tasks based on priority  
+- **Categorized To-Do List** – Group tasks by category  
+- **Quiz App** – Interactive quiz with multiple questions  
+- **Budget Planner** – Plan and compare budgets with expenses  
+
+---
+
+## ✨ Features
+
+- Pure **Vanilla JavaScript**
+- Interactive UI
+- Dynamic DOM manipulation
+- No external frameworks or libraries
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript 
